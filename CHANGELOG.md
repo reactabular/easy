@@ -1,3 +1,8 @@
+9.0.0 / 2017-01-06
+==================
+
+  * Chore - Push Reactabular dependencies as direct dependencies over peer ones. This way it's easier to consume the package.
+
 8.4.0 / 2016-12-01
 ==================
 
