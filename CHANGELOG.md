@@ -2,6 +2,7 @@
 ==================
 
   * Chore - Push Reactabular dependencies as direct dependencies over peer ones. This way it's easier to consume the package.
+  * Bug fix - Do not store selected rows to Table state on selection.
 
 8.4.0 / 2016-12-01
 ==================

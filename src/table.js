@@ -173,8 +173,9 @@ class EasyTable extends React.Component {
       selectedRow
     });
 
+    // XXX: Push this outside of Table entirely. No need
+    // to maintain state here at all.
     this.setState({
-      rows: result.rows,
       selectedRow
     });
   }
