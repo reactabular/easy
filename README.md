@@ -546,3 +546,7 @@ props: {
   }
 },
 ```
+
+## License
+
+MIT.
