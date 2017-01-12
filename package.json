@@ -1,6 +1,6 @@
 {
   "name": "reactabular-easy",
-  "version": "9.0.1",
+  "version": "9.0.2",
   "description": "Easy, opinionated wrapper for Reactabular",
   "scripts": {
     "test:all": "npm test && npm run test:lint",
