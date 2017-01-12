@@ -13,14 +13,14 @@ To make the drag and drop functionality work, you have to set up [react-dnd-html
 > If you want to use the drag and drop functionality, you have to set up React DnD!
 
 ```jsx
-/*
 import React from 'react';
-import { resolve } from 'reactabular';
+import * as resolve from 'table-resolver';
 import * as dnd from 'reactabular-dnd';
 import * as easy from 'reactabular-easy';
 import VisibilityToggles from 'react-visibility-toggles';
 import * as resizable from 'reactabular-resizable';
 import * as tree from 'treetabular';
+import * as search from 'searchtabular';
 import HTML5Backend from 'react-dnd-html5-backend';
 import { DragDropContext } from 'react-dnd';
 import { compose } from 'redux';
@@ -31,7 +31,7 @@ import findIndex from 'lodash/findIndex';
 import {
   generateParents, generateRows
 } from './helpers';
-*/
+
 
 const schema = {
   type: 'object',
@@ -479,9 +479,9 @@ class EasyDemo extends React.Component {
 }
 
 // Set up drag and drop context
-// const DragAndDropDemo = DragDropContext(HTML5Backend)(Demo);
+// const DragAndDropDemo = DragDropContext(HTML5Backend)(EasyDemo);
 
-<EasyDemo />
+export default EasyDemo
 ```
 
 ## Styling
