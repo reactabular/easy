@@ -37,7 +37,6 @@ function processRows({
     resolve.resolve({
       columns,
       method: extra => compose(
-        resolve.index(extra),
         resolve.byFunction('cell.resolve')(extra),
         resolve.nested(extra)
       )
