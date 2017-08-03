@@ -280,7 +280,7 @@ class EasyDemo extends React.Component {
         <VisibilityToggles
           columns={tree.unpack()(columns)}
           onToggleColumn={this.onToggleColumn}
-          isVisible={({ id }) => !hiddenColumns[id]}
+          isVisible={({ column: { id } }) => !hiddenColumns[id]}
         />
 
         <div className="scroll-container">
