@@ -238,7 +238,7 @@ class EasyDemo extends React.Component {
   }
   render() {
     const {
-      columns, sortingColumns, rows, query, hiddenColumns
+      searchColumn, columns, sortingColumns, rows, query, hiddenColumns
     } = this.state;
     const idField = 'Id';
     const parentField = 'parent';
@@ -296,9 +296,11 @@ class EasyDemo extends React.Component {
         <div className="search-container">
           <span>Search</span>
           <search.Field
+            column={searchColumn}
             query={query}
             columns={columnChildren}
             rows={rows}
+            onColumnChange={searchColumn => this.setState({ searchColumn })}
             onChange={query => this.setState({ query })}
           />
         </div>
