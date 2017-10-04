@@ -64,7 +64,6 @@
     "babel-plugin-transform-object-rest-spread": "^6.20.2",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
-    "classnames": "^2.2.5",
     "eslint": "^3.10.2",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
@@ -73,20 +72,16 @@
     "git-prepush-hook": "^1.0.1",
     "jest": "^17.0.3",
     "lodash": "^4.17.2",
-    "react": "^15.4.1",
-    "react-addons-test-utils": "^15.4.1",
-    "react-dom": "^15.4.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "reactabular-resizable": "^8.4.0",
     "redux": "^3.6.0",
     "rimraf": "^2.5.4",
-    "searchtabular": "^1.3.2",
-    "sortabular": "^1.1.0",
-    "treetabular": "^2.0.0",
     "webpack-merge": "^2.3.1"
   },
   "peerDependencies": {
     "lodash": ">= 3.0.0 < 5.0.0",
-    "react": ">= 0.11.2 < 16.0.0",
+    "react": ">= 0.11.2 < 17.0.0",
     "redux": ">= 3.0.0 < 5.0.0"
   },
   "pre-push": [
